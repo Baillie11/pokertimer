@@ -51,23 +51,31 @@ ul.next_blinds {
   width: 100vw;
   display: flex;
   justify-content: center;
+  
 }
 
 .back {
-  width: 120px;
-  height: 50px;
+  width: 105px;
+  height: 105px;
   position: relative;
+  border-radius: 50%;
+  font-size: xx-large;
+  box-shadow: 10px;
 }
 
 .play {
-  width: 120px;
-  height: 50px;
+  width: 105px;
+  height: 105px;
   margin-left: 50px;
   margin-right: 50px;
-  font-weight: bold;
+  border-radius: 50%;
+  font-size: xx-large;
 }
 
 .next {
-  width: 120px;
-  height: 50px;
+  width: 105px;
+  height: 105px;
+  position: relative;
+  border-radius: 50%;
+  font-size: xx-large;
 }
