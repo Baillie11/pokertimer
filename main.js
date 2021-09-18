@@ -15,7 +15,9 @@ function toggle() {
 
         //countdown our timer
         CountDown = setInterval(() => {
-            timeseconds--;
+            if (timeseconds > 0) {
+                timeseconds--;
+            };
             DisplayTime(timeseconds);
             if (timeseconds <= 0) { //if(timeseconds <=0 || timeseconds<1){
                 clearInterval(CountDown);
