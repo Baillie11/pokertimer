@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./views/styles.css">
+    <link rel="stylesheet" href="images/PokerBackround.jpg">
+    <title>Blind Timer</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <li>
+            <ul class="label_current_blinds">
+                <li>Current Blinds</li>
+            </ul>
+            <ul class="current_blinds">
+                <li>50/100</li>
+            </ul>
+            <ul class="countdown_clock" id="countdown_clock">
+                <li>00:10</li>
+            </ul>
+            <ul class="label_next_blinds">
+                <li>Next Level</li>
+            </ul>
+            <ul class="next_blinds">
+                <li>100/200</li>
+            </ul>
+        </li>
+        <div class="buttons">
+            <button class="back" id="back">Back</button>
+            <button class="play" id="play" onclick="toggle()">Play</button>
+            <button class="next" id="next">Next</button>
+
+        </div>
+    </div>
+
+    <div class="menu">
+        <nav class="navbar">
+            <div class="hamburger-menu">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+
+            <UL class="nav list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Clock</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Rounds</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Chips</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Timer Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Prize, Starting Stack Calculator</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Hand and Starting Rankings</a>
+                </li>
+            </UL>
+        </nav>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
